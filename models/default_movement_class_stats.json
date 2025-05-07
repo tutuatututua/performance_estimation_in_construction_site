@@ -1,0 +1,26 @@
+{
+    "masonry": {
+        "class_distribution": {
+            "LOW": 0.15,
+            "NORMAL": 0.7,
+            "HIGH": 0.15
+        },
+        "sample_count": 0
+    },
+    "painting": {
+        "class_distribution": {
+            "LOW": 0.15,
+            "NORMAL": 0.7,
+            "HIGH": 0.15
+        },
+        "sample_count": 0
+    },
+    "plastering": {
+        "class_distribution": {
+            "LOW": 0.15,
+            "NORMAL": 0.7,
+            "HIGH": 0.15
+        },
+        "sample_count": 0
+    }
+}

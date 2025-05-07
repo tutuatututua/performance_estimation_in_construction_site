@@ -1,0 +1,35 @@
+{
+    "model_config": {
+        "hidden_size": 128,
+        "num_layers": 1,
+        "input_size": 6,
+        "embedding_dim": 64,
+        "dropout": 0.2,
+        "conditional": false,
+        "num_job_categories": 3,
+        "sequence_length": 80,
+        "bidirectional_encoder": false
+    },
+    "job_categories": [
+        "masonry",
+        "painting",
+        "plastering"
+    ],
+    "standardized_sequence_length": 80,
+    "anomaly_thresholds": {
+        "low_threshold": 0.1314883828163147,
+        "high_threshold": 0.6324326992034912,
+        "source": "percentile_15_95_validation",
+        "validation_sample_count": 586
+    },
+    "direct_score_stats": {
+        "calculation_method": "mean_rms",
+        "mean": 3.969130039215088,
+        "q1": 1.923085331916809,
+        "q3": 6.142834663391113,
+        "q1_percentile": 15,
+        "q3_percentile": 85,
+        "source": "validation_data_stats",
+        "validation_sample_count": 586
+    }
+}
